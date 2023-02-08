@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main (void){
+
+    using namespace std;
+
+    cout<<"Digite o valor do seu sálario: " <<endl;
+
+    int salario; cin>>salario;
+
+    cout<<"Seu sálario com reajuste é de: "
+        <<(salario * 0.20 + salario)
+        <<endl;
+
+    return 0;
+
+}
