@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main(void){
+
+    using namespace std;
+
+    cout<<"Informe o valor do seu carro: ";
+    double valor; cin>>valor;
+
+    cout<<"O valor final do seu carro é de: "
+        <<(valor + (valor * 0.10) + (valor * 0.45))
+        <<endl;
+
+    return 0;
+
+}
