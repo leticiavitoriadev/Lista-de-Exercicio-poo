@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main(void) {
+
+    using namespace std;
+
+    cout<<"Informe sua idade: "<<endl;
+
+    long long int idade; cin>>idade;
+
+    cout<<"Sua idade em segundos e de: "
+        <<(idade * 31557600)
+        <<endl;
+
+
+    return 0;
+    
+}
