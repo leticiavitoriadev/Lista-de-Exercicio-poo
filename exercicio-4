@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main(void){
+
+    using namespace std;
+
+    cout<<"Digite um valor: "<<endl;
+
+    int valor; cin>>valor;
+
+    int expoente = 3; 
+
+    cout<<"O cubo desse valor e: "
+        <<(valor*expoente)
+        <<endl;
+
+
+    return 0;
+
+}
