@@ -1,0 +1,35 @@
+#include <iostream>
+
+int main(void){
+
+    using namespace std;
+
+    cout<<"Informe sua matricula: "<<endl;
+
+    int matri; cin>>matri;  
+    
+    cout<<"Informe seu nome: "<<endl;
+
+    string nome; cin>>nome;
+
+    cout<<"Informe seu salario: "<<endl;
+    
+    double salario; cin>>salario;
+ 
+
+    double desconto = (salario * 0.15);
+
+    double resto = (salario - desconto);
+
+    cout<<"Matricula: "<<(matri)<<endl;
+
+    cout<<"Nome: "<<(nome)<<endl;
+
+    cout<<"Salario Bruto: "<<(salario)<<endl;
+
+    cout<<"Deducao INSS: "<<(desconto)<<endl;
+
+    cout<<"Salario Liquido: "<<(resto)<<endl;   
+
+    return 0;
+}
