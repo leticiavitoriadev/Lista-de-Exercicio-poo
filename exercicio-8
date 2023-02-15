@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    cout<<"Digite seu nome:  "<<endl;
+    string nome; cin>>nome;
+    
+    float nota1, nota2, nota3, media;
+
+    cout << "Primeira Nota: ";
+    cin >> nota1;
+
+    cout << "Segunda nota: ";
+    cin >> nota2;
+
+    cout << "Terceira nota: ";
+    cin >> nota3;
+
+
+    cout<<"Nome: "
+        <<(nome)<<endl;    
+    
+    media = (20*nota1 + 30*nota2 +
+             50*nota3) / 100;
+
+    cout << "Media: "  <<media<<"%"<<endl;
+
+    return 0;
+}
